@@ -17,7 +17,7 @@ class NoteItem extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
         decoration: BoxDecoration(
-          color: Color.fromARGB(247, 255, 201, 119),
+          color: const Color.fromARGB(247, 255, 201, 119),
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
@@ -33,7 +33,7 @@ class NoteItem extends StatelessWidget {
                 child: Text(
                   'this my note app',
                   style: TextStyle(
-                      color: Colors.black.withOpacity(.6), fontSize: 20),
+                      color: Colors.black.withOpacity(.6), fontSize: 18),
                 ),
               ),
               trailing: IconButton(
